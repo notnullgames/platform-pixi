@@ -22,5 +22,5 @@ app.stage.addChild(city)
 
 app.ticker.add(delta => {
   background.tilePosition.x -= (delta * skySpeed)
-  city.tilePosition.x -= (delta * citySpeed)
+  // city.tilePosition.x -= (delta * citySpeed)
 })

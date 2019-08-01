@@ -31,9 +31,5 @@
     "post": [
       "clean-source"
     ]
-  },
-  "staticFiles": {
-    "staticPath": "public",
-    "watcherGlob": "**"
   }
 }

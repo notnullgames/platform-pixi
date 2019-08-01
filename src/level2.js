@@ -7,12 +7,12 @@ export const scene = new PIXI.Container()
 const skySpeed = 0.1
 const citySpeed = 0.5
 
-const background = PIXI.TilingSprite.from('./Background-Night.png', 800, 800)
+const background = PIXI.TilingSprite.from('./Background-Day.png', 800, 800)
 background.anchor.set(0)
 background.position.set(0)
 scene.addChild(background)
 
-const moon = PIXI.Sprite.from('./Moon-Night.png')
+const moon = PIXI.Sprite.from('./Moon-Day.png')
 moon.setTransform(500, 100, 0.5, 0.5)
 moon.anchor.set(0.5)
 scene.addChild(moon)

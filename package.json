@@ -15,6 +15,7 @@
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
   "dependencies": {
+    "emitonoff": "^0.1.0",
     "pixi.js": "^5.1.0"
   },
   "devDependencies": {

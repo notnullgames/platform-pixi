@@ -1,5 +1,6 @@
 {
   "name": "platform-pixi",
+  "private": true,
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "gh-pages-deploy": "^0.5.1",
     "parcel": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.2.0",
     "rimraf": "^2.6.3"
   },
   "gh-pages-deploy": {
@@ -29,5 +31,9 @@
     "post": [
       "clean-source"
     ]
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   }
 }

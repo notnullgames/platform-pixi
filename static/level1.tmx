@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="sifi" tilewidth="151" tileheight="86" tilecount="63" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="50" height="50" source="tiles/street/silver/Center-Empty-Inside.png"/>
+  </tile>
+  <tile id="1">
+   <image width="50" height="50" source="tiles/street/silver/Center.png"/>
+  </tile>
+  <tile id="2">
+   <image width="25" height="25" source="tiles/street/silver/Curve.BottomLeft.png"/>
+  </tile>
+  <tile id="3">
+   <image width="25" height="25" source="tiles/street/silver/Curve.BottomRight.png"/>
+  </tile>
+  <tile id="4">
+   <image width="25" height="25" source="tiles/street/silver/Curve.TopLeft.png"/>
+  </tile>
+  <tile id="5">
+   <image width="25" height="25" source="tiles/street/silver/Curve.TopRight.png"/>
+  </tile>
+  <tile id="6">
+   <image width="25" height="25" source="tiles/street/silver/Edge.BottomLeft.png"/>
+  </tile>
+  <tile id="7">
+   <image width="25" height="25" source="tiles/street/silver/Edge.BottomRight.png"/>
+  </tile>
+  <tile id="8">
+   <image width="25" height="25" source="tiles/street/silver/Edge.TopLeft.png"/>
+  </tile>
+  <tile id="9">
+   <image width="25" height="25" source="tiles/street/silver/Edge.TopRight.png"/>
+  </tile>
+  <tile id="10">
+   <image width="49" height="25" source="tiles/street/silver/Ground.Bottom.png"/>
+  </tile>
+  <tile id="11">
+   <image width="25" height="49" source="tiles/street/silver/Ground.Left.png"/>
+  </tile>
+  <tile id="12">
+   <image width="25" height="49" source="tiles/street/silver/Ground.Right.png"/>
+  </tile>
+  <tile id="13">
+   <image width="49" height="25" source="tiles/street/silver/Ground.Top.png"/>
+  </tile>
+  <tile id="14">
+   <image width="50" height="50" source="tiles/street/rusty/Center-Empty-Inside.png"/>
+  </tile>
+  <tile id="15">
+   <image width="50" height="50" source="tiles/street/rusty/Center.png"/>
+  </tile>
+  <tile id="16">
+   <image width="25" height="25" source="tiles/street/rusty/Curve.BottomLeft.png"/>
+  </tile>
+  <tile id="17">
+   <image width="25" height="25" source="tiles/street/rusty/Curve.BottomRight.png"/>
+  </tile>
+  <tile id="18">
+   <image width="25" height="25" source="tiles/street/rusty/Curve.TopLeft.png"/>
+  </tile>
+  <tile id="19">
+   <image width="25" height="25" source="tiles/street/rusty/Curve.TopRight.png"/>
+  </tile>
+  <tile id="20">
+   <image width="25" height="25" source="tiles/street/rusty/Edge.BottomLeft.png"/>
+  </tile>
+  <tile id="21">
+   <image width="25" height="25" source="tiles/street/rusty/Edge.BottomRight.png"/>
+  </tile>
+  <tile id="22">
+   <image width="25" height="25" source="tiles/street/rusty/Edge.TopLeft.png"/>
+  </tile>
+  <tile id="23">
+   <image width="25" height="25" source="tiles/street/rusty/Edge.TopRight.png"/>
+  </tile>
+  <tile id="24">
+   <image width="49" height="25" source="tiles/street/rusty/Ground.Bottom.png"/>
+  </tile>
+  <tile id="25">
+   <image width="25" height="49" source="tiles/street/rusty/Ground.Left.png"/>
+  </tile>
+  <tile id="26">
+   <image width="25" height="49" source="tiles/street/rusty/Ground.Right.png"/>
+  </tile>
+  <tile id="27">
+   <image width="49" height="25" source="tiles/street/rusty/Ground.Top.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="32" source="tiles/street/dirty/Center-Drain-Left.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="tiles/street/dirty/Center-Drain-Right.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="tiles/street/dirty/Center-Drain.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="tiles/street/dirty/Center.png"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="tiles/street/dirty/Curve.BottomLeft.png"/>
+  </tile>
+  <tile id="33">
+   <image width="32" height="32" source="tiles/street/dirty/Curve.BottomRight.png"/>
+  </tile>
+  <tile id="34">
+   <image width="32" height="32" source="tiles/street/dirty/Curve.TopLeft.png"/>
+  </tile>
+  <tile id="35">
+   <image width="32" height="32" source="tiles/street/dirty/Curve.TopRight.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="32" source="tiles/street/dirty/Edge.BottomLeft.png"/>
+  </tile>
+  <tile id="37">
+   <image width="32" height="32" source="tiles/street/dirty/Edge.BottomRight.png"/>
+  </tile>
+  <tile id="38">
+   <image width="32" height="32" source="tiles/street/dirty/Edge.TopLeft.png"/>
+  </tile>
+  <tile id="39">
+   <image width="32" height="32" source="tiles/street/dirty/Edge.TopRight.png"/>
+  </tile>
+  <tile id="40">
+   <image width="32" height="32" source="tiles/street/dirty/Ground.Bottom.png"/>
+  </tile>
+  <tile id="41">
+   <image width="32" height="32" source="tiles/street/dirty/Ground.Left.png"/>
+  </tile>
+  <tile id="42">
+   <image width="32" height="32" source="tiles/street/dirty/Ground.Right.png"/>
+  </tile>
+  <tile id="43">
+   <image width="32" height="32" source="tiles/street/dirty/Ground.Top.png"/>
+  </tile>
+  <tile id="44">
+   <image width="32" height="32" source="tiles/street/black/Center-Solid.png"/>
+  </tile>
+  <tile id="45">
+   <image width="32" height="32" source="tiles/street/black/Center.png"/>
+  </tile>
+  <tile id="46">
+   <image width="32" height="32" source="tiles/street/black/Curve.BottomLeft.png"/>
+  </tile>
+  <tile id="47">
+   <image width="32" height="32" source="tiles/street/black/Curve.BottomRight.png"/>
+  </tile>
+  <tile id="48">
+   <image width="32" height="32" source="tiles/street/black/Curve.TopLeft.png"/>
+  </tile>
+  <tile id="49">
+   <image width="32" height="32" source="tiles/street/black/Curve.TopRight.png"/>
+  </tile>
+  <tile id="50">
+   <image width="32" height="32" source="tiles/street/black/Edge.BottomLeft.png"/>
+  </tile>
+  <tile id="51">
+   <image width="32" height="32" source="tiles/street/black/Edge.BottomRight.png"/>
+  </tile>
+  <tile id="52">
+   <image width="32" height="32" source="tiles/street/black/Edge.TopLeft.png"/>
+  </tile>
+  <tile id="53">
+   <image width="32" height="32" source="tiles/street/black/Edge.TopRight.png"/>
+  </tile>
+  <tile id="54">
+   <image width="32" height="32" source="tiles/street/black/Ground.Bottom.png"/>
+  </tile>
+  <tile id="55">
+   <image width="32" height="32" source="tiles/street/black/Ground.Left.png"/>
+  </tile>
+  <tile id="56">
+   <image width="32" height="32" source="tiles/street/black/Ground.Right.png"/>
+  </tile>
+  <tile id="57">
+   <image width="32" height="32" source="tiles/street/black/Ground.Top.png"/>
+  </tile>
+  <tile id="58">
+   <image width="135" height="60" source="tiles/Vehicles/Vehicle Civil.png"/>
+  </tile>
+  <tile id="59">
+   <image width="151" height="52" source="tiles/Vehicles/Vehicle Police.png"/>
+  </tile>
+  <tile id="60">
+   <image width="148" height="72" source="tiles/Vehicles/Vehicle Taxi.png"/>
+  </tile>
+  <tile id="61">
+   <image width="50" height="86" source="tiles/Soda Machines/Soda-Machine-Blue.png"/>
+  </tile>
+  <tile id="62">
+   <image width="50" height="86" source="tiles/Soda Machines/Soda-Machine-Energy.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="100" height="100">
+  <data encoding="csv"/>
+ </layer>
+</map>
